@@ -1,4 +1,4 @@
-# Observer theme dots
+# Observer theme rice
 
 
 ![Observer](observer.gif)
