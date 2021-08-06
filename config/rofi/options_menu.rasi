@@ -1,0 +1,37 @@
+
+configuration {
+    theme:                          "config";
+    show-icons:                     false;
+    font:                           "Font Awesome 84";
+}
+
+window {
+    height:                         100%; // 1440 - 2*16
+    width:                          100%;
+    location:                       center;
+    anchor:                         center;
+    x-offset:                       0;
+    y-offset:                       0;
+}
+
+mainbox {
+    children:                       [listview]; /* No text entry */
+    border-color:                   @background;
+    padding:                        12px;
+}
+
+listview {
+    layout:                         horizontal;
+    spacing:                        0px;
+}
+
+element-text {
+    horizontal-align:               10;
+    vertical-align:                 50;
+    margin:                         5px;
+    width: 170px;
+
+}
+element {
+    padding:                        350px 98px;
+}

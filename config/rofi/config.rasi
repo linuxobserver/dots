@@ -1,0 +1,74 @@
+configuration {
+    show-icons:                     false;
+    font:                           "monospace 12";
+}
+
+* {
+    background-color:              #8F5535;
+
+    background:                     #000000;
+    background-alt:                 #000000;
+    text-color:                     #000000;
+    primary:                        #C77750;
+    urgent:                         #8b0000;
+}
+
+window {
+    height:                         100%;
+    width:                          100%;
+    transparency:                   "real";
+    background-color:               @background;
+    border-radius:                   0px ;
+    border-color:                  #000000;
+}
+
+mainbox {
+    children:                       [ entry, listview, message ];
+    padding:                        30% 30%;
+}
+
+entry {
+    expand:                         false;
+    margin:                         12px 0;
+    background-color:               @background-alt;
+    padding:                        8px;
+    border:                         8px;
+    border-color:                   @background-alt;
+    border-radius:                  0px;
+    text-color:                     #8F5535;
+}
+
+element {
+    padding:                        8px;
+    orientation:                    horizontal;
+}
+
+element normal.urgent, element alternate.urgent {
+    background-color:               @urgent;
+}
+
+element normal.active, element alternate.active {
+    background-color:               @background-alt;
+    border:                         4px 4px solid 4px 4px;
+    border-radius:                  0;
+    border-color:                   transparent;
+}
+
+element selected {
+    color: @urgent;
+}
+
+element selected.urgent {
+    background-color:               @urgent;
+}
+
+element selected.active {
+    background-color:               @background-alt;
+}
+
+element-icon {
+    border:                         4px;
+    border-color:                   @textcolor;
+    border-radius:                  12;
+    padding:                        6px;
+}
