@@ -26,4 +26,4 @@ Using the following Os and apps:
 * fff (cli file manager)
 * surfer (minimal web browser) 
 * custom scripts included (modified from others)
-*custom wallpaper
+* custom wallpaper
