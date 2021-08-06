@@ -13,7 +13,7 @@ Using the following Os and apps:
 * wlsunset (redshift replacement for wayland)
 * alacritty (termina)
 * neovim (editor)
-* rofi (Wayland-version rogram bar) 
+* rofi (wayland-version search bar) 
 * mpc (cli music app)
 * mpd (cli music server)
 * ncmpcpp (cli musicplayer)
