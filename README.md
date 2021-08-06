@@ -1,4 +1,4 @@
-# Ovserver theme dots
+# Observer theme dots
 
 
 ![Observer](observer.gif)
