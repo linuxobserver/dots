@@ -9,9 +9,9 @@ This is my first Sway theme rice for sharing with you. Minimal, fast, ergonomic 
 ## Instructions
 If you dont want to run the autorice install script ```https://github.com/linuxobserver/autorice.git``` 
 * Download the dots folder cd eg ```cd dots``` and execute the following commands: 
-  * Put the contents of the ```home``` folder to your home folder. 
-  * sudo chown -R yourusername /home/yourusername
-  * chmod +x ~/.local/bin/* 
+* Put the contents of the ```home``` folder to your home folder. 
+* sudo chown -R yourusername /home/yourusername
+* chmod +x ~/.local/bin/* 
   
  ##### ** Remember that many the dot files are dependent from the following apps. I suggest to do not proceed without installing the following apps. ** 
 
