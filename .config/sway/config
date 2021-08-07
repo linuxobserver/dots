@@ -30,7 +30,7 @@ set $menu dmenu_path | dmenu | xargs swaymsg exec --
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/myst/Pictures/sway.jpg fill
+output * bg ~/Pictures/sway.jpg fill
 set $opacity 0.99
 for_window [class=".*"] opacity $opacity
 for_window [app_id=".*"] opacity $opacity
@@ -287,4 +287,3 @@ for_window [app_id="uxnemu"] floating enable
 #for_window [app_id="mpv"] floating enable
 
 include /etc/sway/config.d/*
-file:///home/myst/Documents/dots/README.md
