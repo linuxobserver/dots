@@ -19,17 +19,18 @@ This is my first Sway theme rice for sharing with you. Minimal, fast, ergonomic 
 
 * Arch Linux
 * sway (window manager)
-* swayidle
-* swaylock
+* swayidle (idle managment daemon)
+* swaylock (screen lock)
 * waybar (info bar)
 * autotiling (dynamic tiling)
 * dunst (notifier)
 * newsboat (cli rss reader)
 * flashfocus (flash fx on windows)
 * wlsunset (redshift replacement for wayland)
-* pulseaudio 
-* pulsemixer
-* htop
+* pulseaudio (sound server)
+* pulsemixer (sound mixer)
+* htop (sysinfo)
+* exa (ls replacement)
 * alacritty (terminal)
 * neovim (editor)
 * rofi (wayland-version search bar) 
@@ -48,7 +49,7 @@ This is my first Sway theme rice for sharing with you. Minimal, fast, ergonomic 
 * custom wallpaper
 * terminus (font)
 * ttf-awesome-icons (font for icons) 
-* zsh 
-* zsh-autosuggestions
-* zsh-syntax-highlighting
+* zsh (shell)
+* zsh-autosuggestions (zsh enhancement)
+* zsh-syntax-highlighting  (zsh enhancement)
 
