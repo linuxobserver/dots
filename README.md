@@ -1,10 +1,10 @@
-# Ovserver theme dots
+# Observer theme rice
 
 
 ![Observer](observer.gif)
 
 
-This is my first Sway theme rice. Minimal, fast, ergonomic & orange .. Enjoy
+This is my first Sway theme rice for sharing with you. Minimal, fast, ergonomic & brown-orange .. Enjoy autotiling, gaps (super+z) an no gaps windows (super+x) with or without waybar on the second stroke. Easy keyboard shortcuts for screen recording (super+f9 start recording / super+shift+f9 stop recording), super +m for music super+v for random music..etc.. Search on sway config for more keyboard bindings for the scripts. Enjoy!!  
 
 ## Instructions
 
