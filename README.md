@@ -1,4 +1,4 @@
-# Observer theme rice
+# Observer minimal theme rice
 
 
 ![Observer](observer1.png)
