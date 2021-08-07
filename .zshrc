@@ -1,7 +1,7 @@
 
 autoload -U colors && colors	# Load colors
 setopt autocd		# Automatically cd into typed directory.
-export PS1="➜  "
+export PS1="->  "
 # History in cache directory:
 HISTSIZE=10000
 SAVEHIST=10000
@@ -62,7 +62,7 @@ lfcd () {
     fi
 }
 bindkey -s '^o' 'lfcd\n'
-bindkey -s '^a' 'afetch\n' &> /dev/null 
+bindkey -s '^a' 'afetch\n' &> /dev/null
 bindkey -s '^f' 'cd "$(dirname "$(fzf)")"\n'
 bindkey '^[[P' delete-char
 bindkey -s '^r' 'wf-recorder  --audio --file=$HOME/Videos/screencast-$(date '+%y%m%d-%H%M-%S').mp4 && notify-send "Start Recording..."\n '
@@ -72,7 +72,6 @@ autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
 alias ls="exa -l"
-export PATH="$HOME/.ghcup/bin:$PATH"
 # Load syntax highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
