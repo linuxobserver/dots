@@ -12,7 +12,8 @@ If you dont want to run the autorice install script ```https://github.com/linuxo
   * Put the contents of the ```home``` folder to your home folder. 
   * sudo chown -R yourusername /home/yourusername
   * chmod +x ~/.local/bin/* 
- ** Remember that many the dot files are dependent from the following apps. I suggest to do not proceed without installing the following apps.   
+  
+ ** Remember that many the dot files are dependent from the following apps. I suggest to do not proceed without installing the following apps. ** 
 
 ## Using the following Os and apps:
 
