@@ -1,10 +1,7 @@
 
 autoload -U colors && colors	# Load colors
 setopt autocd		# Automatically cd into typed directory.
-
 export PS1="➜  "
-
-
 # History in cache directory:
 HISTSIZE=10000
 SAVEHIST=10000
@@ -65,15 +62,10 @@ lfcd () {
     fi
 }
 bindkey -s '^o' 'lfcd\n'
-
 bindkey -s '^a' 'afetch\n' &> /dev/null 
-
 bindkey -s '^f' 'cd "$(dirname "$(fzf)")"\n'
-
 bindkey '^[[P' delete-char
-
 bindkey -s '^r' 'wf-recorder  --audio --file=$HOME/Videos/screencast-$(date '+%y%m%d-%H%M-%S').mp4 && notify-send "Start Recording..."\n '
-
 
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
