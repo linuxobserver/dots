@@ -111,7 +111,7 @@ bindsym $mod+z exec swaymsg gaps inner current set 20 && swaymsg gaps outer curr
 bindsym $mod+space+up exec light -T 1.4 && notify-send 'brightness up'
 bindsym $mod+space+down exec light -T .74 && notify-send 'brightness down'
 
-exec xrdb .Xresources
+
 exec mpd
 #
 # Basics:
