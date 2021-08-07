@@ -7,17 +7,15 @@
 This is my first Sway theme rice for sharing with you. Minimal, fast, ergonomic & brown-orange .. Enjoy autotiling, gaps (super+z) an no gaps windows (super+x) with or without waybar on the second stroke. Easy keyboard shortcuts for screen recording (super+f9 start recording / super+shift+f9 stop recording), super +m for music super+v for random music..etc.. Search on sway config for more keyboard bindings for the scripts. Enjoy!!  
 
 ## Instructions
-
-* Put the config folder contents to your .config
-* Put the local folder contents to your .local
-* Put the home folder contents to your home folder (home/yourusername)
-* Execute in terminal the following commands: 
+If you dont want to run the autorice install script ```https://github.com/linuxobserver/autorice.git``` 
+* Download the dots folder cd eg ```cd dots``` and execute in terminal the following commands: 
   * sudo chown -R yourusername /home/yourusername
   * chmod +x ~/.local/bin/* 
+  * Put the contents of the ```home``` folder to your home folder. 
 
 ## Using the following Os and apps:
 
-* Arch Linux
+* Arch Linux (basic install)
 * sway (window manager)
 * swayidle (idle managment daemon)
 * swaylock (screen lock)
