@@ -287,3 +287,4 @@ for_window [app_id="uxnemu"] floating enable
 #for_window [app_id="mpv"] floating enable
 
 include /etc/sway/config.d/*
+file:///home/myst/Documents/dots/README.md
