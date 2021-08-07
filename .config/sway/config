@@ -76,7 +76,7 @@ default_border none
 
 ### Key bindings
 bindsym $mod+d exec rofi -show drun
-bindsym $mod+Shift+q exec /home/myst/.local/bin/power-menu.sh
+bindsym $mod+Shift+q exec ~/.local/bin/power-menu.sh
 bindsym $mod+w exec surfer
 bindsym $mod+f3 exec alacritty -e browsh
 bindsym $mod+m exec alacritty -e ncmpcpp -S visualizer
